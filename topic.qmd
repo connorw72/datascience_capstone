@@ -1,0 +1,16 @@
+---
+title: "Data Science Capstone Project Topic"
+author: "Connor Wang"
+format: pdf
+---
+
+## Topic
+My capstone project will focus on creating advanced analytics for the Pomona-Pitzer football team. The goal of the project is to provide the coaches with statistics related to play success and overall team performance. In general, the hope is to help coaches improve their game strategy by gaining stronger insights into plays that tend to work better, or identify team strengths by looking through the data in different ways.
+
+The name of my faculty advisor is Coach John Walsh.
+
+## Data
+The data that I will use for this project comes from Pomona-Pitzer football games. Every play from every game is logged into Hudl, filled with tons of information. Each play gets marked with the type of play, what the play was, at what point in the game it happened, what the outcome was, and many other statistics. Given that there are over a hundred plays a game, and games dating back years and years, there will be a lot of interesting data to look at with regard to team and play specific performance.
+
+## Advanced data-analytic method
+With this data, the goal is to create a dashboard that contains various information for the coaches to look at. Aside from organizing the data and creating useful visuals and filters, I hope to use machine learning to try and predict a play's outcome. While there are a lot of variables that go into football that make issues like this difficult to solve, with all the data presented I believe it is something that could be helpful. It would not exactly predict a play's outcome, but given time of game, play type, the type of defense a team is facing, etc. it might be able to predict a range of yards that will be gained or loss. In order to do this I plan on using machine learning models such as XGBoost and random forest, among others, to see which best captures these patterns. 
