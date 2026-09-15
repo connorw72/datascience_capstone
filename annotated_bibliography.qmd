@@ -1,5 +1,5 @@
 ---
-title: "Data Science Capstone Project Topic"
+title: "Data Science Capstone Project Annotated Bibliography"
 author: "Connor Wang"
 format: pdf
 ---
