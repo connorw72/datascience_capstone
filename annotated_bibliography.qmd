@@ -1,0 +1,26 @@
+---
+title: "Data Science Capstone Project Topic"
+author: "Connor Wang"
+format: pdf
+---
+
+Thus far I have found four relevant sources. In general they cover design choices and existing software methods that relate to my project. The Goudsmit et al. paper discusses a dashboard design that is favorable by coaches. Using real coach perspective through surveys and interviews they studied functionality and views that coaches wanted. Alongside input from Coach Walsh, I intend to use this paper to get further reasoning about what metrics coaches might find useful. The Blinkoff et al. paper discusses play prediction for football. This paper talks about Division 1 football teams and using their statistics to model fourth down conversion success. While I hope to have more general predictions, this paper will help me understand what methods have helped other people in creating successful play prediction models. I will use this as a blueprint for how play prediction has worked in the past. The Liu et al. paper talks about player tracking, which is something I hope to conduct to gain further data that will be helpful for my coaches. This is a bigger goal, given that this would involve me developing software to get the extra data. These are the main sources. I have another source from the Medium about more predictive play calling, but it is not a peer reviewed paper so I will use it more for further ideas. 
+
+Source of data: https://www.hudl.com/home 
+I am citing Hudl as the source of my data. Although it is technically inputted by Pomona-Pitzer coaches, and comes from the Pomona-Pitzer football team, it is data that is only privately accessible through Hudl. 
+
+List of sources:
+
+Goudsmit, Jos, et al. "Co-Operative Design of a Coach Dashboard for Training Monitoring and Feedback." Sensors, vol. 22, no. 23, 2022, article no. 9073
+Link: https://www.mdpi.com/1424-8220/22/23/9073
+
+Blinkoff, Joshua, et al. "Predictive Modeling of 4th Down Conversion in Power 5 Conferences: Football Data Analytics." The Sport Journal, 2020
+Link: https://thesportjournal.org/article/predictive-modeling-of-4th-down-conversion-in-power-5-conferences-football-data-analytics/
+
+Liu, Hongshan, et al. "Automated Player Identification and Indexing Using Two-Stage Deep Learning Network." Scientific Reports, vol. 13, 2023, article no. 10036
+Link: https://www.nature.com/articles/s41598-023-36657-5
+
+Simikic, Monika. "Leveraging Machine Learning to Predict Football Play Calling." Medium, 2024
+Link: https://medium.com/@monikasimikic/leveraging-machine-learning-to-predict-football-play-calling-2b1506f6521b
+
+
