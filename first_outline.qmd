@@ -1,0 +1,30 @@
+---
+title: "Data Science Capstone First Outline"
+author: "Connor Wang"
+format: pdf
+---
+
+## Introduction
+This section will introduce the topic of my capstone project and why I chose to work on this issue. I will briefly discuss the questions I hope to answer with the data, which are: 
+1. Can the result of a play be predicted from the game situation and past results?
+2. How much of a correlation is there between the number of routes a wide receiver runs in practice versus the number of that same route they run in a game, and what impact does this have on the success of the offense?
+
+## Background and Related Work
+Here I will discuss the sport of football in general, given the assumption that a reader might not have all of the knowledge of the sport needed to understand the project. I will explain further how coaches can benefit from football data. I will also review existing work in football data analytics at the NFL and college level.
+
+## Data
+This section will explain the data and how I got it. There are two different categories of data I am collecting for this project. One of them is play by play results from Pomona-Pitzer football games. During the game each play is marked and the gain/loss is tracked, as well as the defense the offense faced. The second category is the receivers' routes run in practice versus the amount of times they ran that route in game. 
+
+## Exploratory Data Analysis
+This section will explore team tendencies, and make general comparisons between practice and game. Here the overall goal is to discuss patterns I found in the data, which lead to decisions on how to act on it.
+
+## Methods
+Here I will discuss the methods used to further analyze the data. I will give background to any machine learning models I used, as well as an explanation of why I chose them. I will also discuss any other methods I used to analyze the data, such as statistical tests or visualizations.
+
+## Results and Findings
+This section will discuss the results of my analysis and what I was able to find. I will discuss whether I found a strong correlation, and if my model could be used to help teams.
+
+## Discussion and Conclusion
+Here I will discuss how coaches might benefit from my findings, if I find anything significant enough. I will also discuss what limited my project and how it can be further developed to help the Pomona-Pitzer football team.
+
+
