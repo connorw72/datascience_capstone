@@ -1,0 +1,63 @@
+---
+title: "Offensive Analysis and Play Prediction for Pomona-Pitzer Football"
+author: "Connor Wang"
+format: pdf
+bibliography: references.bib
+nocite: |
+    @*
+---
+
+\newpage
+
+## Introduction
+As a computer science major and NCAA Division 3 football player, I have always noticed the lack of data analytics within the sport. While teams at the NFL and Division I level use plenty, there is a lack at the lower levels of football. At our level, plays are handwritten onto a clipboard as they happen in a game, and coaches have to manually log everything after the fact, while confirming that what was written is true based on the film. Putting all of this time towards inputting the data does not leave room for data analysis, and getting further insights. With so much nuance going into what happens on the field, it would be beneficial for more analytics to be done. With so many past games logged with lots of data, there are a lot of numbers there that would likely help teams be more successful. 
+
+There is extensive work that has been done at the higher levels. @blinkoff2020 ran a study where they predicted fourth down conversions for Power 5 teams, which are the best Division I football teams in the nation. @simikic2024 utilized machine learning algorithms to predict offensive play calls. However, little of this work has been done at the Division III level.
+
+The data used in this project comes from the Pomona-Pitzer football team, consisting of games within their league since 2021. 
+
+Through these analyses, I want to explore two main questions:
+
+1. What formations or play types succeed in which situations?
+
+2. Can a play's result be predicted from the situation and past results?
+
+Success in football is difficult to measure, as there are a number of things an offense hopes to achieve. Did a play result in a first down, a touchdown, or a big play, or did the offense simply gain five yards and keep progress going as it should? For the purposes of this study there are more than one definition of success, based on the context of what is being measured. In some cases, a successful play can just be a gain of four to five yards, or success can be measured as an explosive play, of 10 or more yards. 
+
+With my findings, coaches can see what has worked for them historically and what has not. It can help them figure out what types of plays they should run more often, and what to run in specific situations. Part of why data analytics may have been lacking at this level of football is ease of use. Coaches need something easy to use, and @goudsmit2022 designed a dashboard based on what coaches wanted to see.
+
+The rest of the paper covers further background on the topic and related work. It then goes into the data, and exploratory analysis of that data. It then presents the methods and results, and ends with a conclusion.
+
+## Background and Related Work
+To be completed
+
+## Data
+The data utilized for this project comes from the Pomona-Pitzer football team, an NCAA Division III team participating in the SCIAC conference. The main data source is the play by play data that the team logs during each game. Since Pomona-Pitzer faces the same SCIAC opponents each year, I used data from each of our games against these teams dating back to 2021. The data is updated week to week, using data from games as they are played in the 2026 season. All the data is against SCIAC opponents only, since teams outside of the conference are only played a limited number of times when dating back to 2021. The Pomona-Pitzer data on Hudl dates back over 10 years, but since the offensive play calls can change over time I restricted the time period within six seasons to keep things as accurate to our modern play calling as possible. At the NCAA Division III level, football teams average about 60 to 80 offensive plays per game, each of which is a row in the data. 
+
+Unlike higher level football, like Division I or NFL, to get this data an injured player or assistant coach on the sideline holds a paper and clipboard, and writes down information about the plays as they get called. The information they log includes the play call that the offensive coordinator makes, as well as the formation that the play comes from. Generally, this task is given to a trustworthy player who has a strong understanding of the game because they will also note down the formation that the defense is in. This does create room for error due to a human failing to correctly hear the play call, or writing down the wrong play. Since they also write the personnel and formation, if they see or hear something wrong this can also create an issue. The defensive alignment is rarely incorrect because a coach will review the film and make changes as they watch. 
+
+While the game is being played, it is filmed for the team to review the results of the game. This film is uploaded to a platform called Hudl, which is a sports video analysis platform. A vast majority of football teams at all levels throughout the country, along with other sports, use Hudl. A service that Hudl provides is called Hudl Assist, which teams have to pay extra for. With this feature, Hudl will tag the down, distance, field position, and play outcome for teams that buy it. The main view of Hudl has the film on the top half of the screen, and a spreadsheet of information about each play below it. 
+
+Each play includes a number of different types of variables. There are numeric variables, such as the down, distance, yard line, and the yards gained or lost on a play. Categorical variables include the offensive formation, play type, play call, and the defensive alignment. There is also metadata such as the quarter that the play took place in, which is important in the context of football.
+
+Various games will have different data, with extra columns added for more details or slightly different column names. For example the offensive formation can come in as "Off_form" or as "Offensive Formation", just based on how the coach tagged it that play. These name mismatches are something that I handled, along with null values on some plays. Timeouts and penalties are logged just like the other plays, which had to be thrown out because they have lots of null values, or will present a negative or positive gain that did not have to do with the actual play call itself.
+
+Since the data is part of Hudl as a CSV, you are able to export the data from Hudl. As a member of the Pomona-Pitzer football team, this is data that I have access to and am able to utilize. Since the data contains sensitive information, such as Pomona-Pitzer's play calls, and can be matched to the film if another team has it, it is important to keep this data hidden or anonymized.
+
+## Exploratory Data Analysis
+To be completed
+
+## Methods
+To be completed
+
+## Results and Findings
+To be completed
+
+## Discussion and Conclusion
+To be completed
+
+\newpage
+
+## Bibliography
+:::{#refs}
+:::
