@@ -1,0 +1,14 @@
+---
+title: "Data Science Capstone Ethics Component"
+author: "Connor Wang"
+format: pdf
+---
+
+## Ethics
+When dealing with sports data, the primary ethical concern is from a lens of competition. The data that I have been using contains plays in the order they happened in a game, along with the exact play calls in the form of Pomona-Pitzer terminology. If someone were to get their hands on the data, know what game each one comes from, and have access to the film, they would be able to match up each play to each play call and learn what each thing is. Essentially, they would be able to learn Pomona-Pitzer's entire playbook. If Pomona-Pitzer knew about it, they would have to spend months trying to make a brand new playbook, and if they did not know about their playbook getting leaked, they would struggle to win games. Teams would know what was coming based off their play calls, and thus be able to know exactly what the offense is about to do and put their defense in the best position possible to stop it. The data that powers this project would be a gold mine for any opposing team, and almost guarantee them a win against Pomona-Pitzer when they play them. To address this, I have not published any of my code or datasets online. I currently have my GitHub public, but will private it when it is time to push all the code and datasets along with it. Within the paper there will be no connection to what each offensive formation looks like, and I will change the names of play calls to make it all anonymous. Since I will be covering data relate to plays that are runs vs. passes, its important to give fake names to each play so there is no correlation. 
+
+As a member of the Pomona-Pitzer football team, this is data I am allowed to access and use. My coaching staff also knows about this project, so there are no questions about whether or not I am allowed to use these CSVs for analysis.
+
+Another challenge with sports data is player privacy. None of the data in the CSVs that I have use any personal identifiers, and include only general information about the offense and the plays it ran. It does not say who carried the ball, who had the gain of yardage, etc. so there is no issue with player privacy here.
+
+Since this data is hand transcribed, there is the potential for errors. With a limited number of games, there can be misleading patterns and statistics, so the model's predictions are purely based on probability, and should be used only as support for offensive decision making.
